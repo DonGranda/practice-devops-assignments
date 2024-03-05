@@ -1,3 +1,4 @@
+#!/bin/bash
 #The variable log_file is assigned the value of the path of the file logs.txt located in the same directory as the script.
 log_file="$(dirname "${BASH_SOURCE[0]}")/logs.txt"
 
@@ -8,7 +9,7 @@ if [[ ! -e $log_file ]]; then
 fi
 
 current_datetime=$(date +"%Y-%m-%d %H:%M:%S")
-echo "Log entry at $current_datetime" >> $log_file
+echo "Log entry at $current_datetime" > $log_file
 echo "Log Entry added successfully"
 
 
