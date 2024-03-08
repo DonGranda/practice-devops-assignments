@@ -1,3 +1,3 @@
 **The link for question nginx proxy is:**
 
-http://18.213.3.91:9090
+http://54.167.24.200:9090
